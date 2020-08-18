@@ -1,0 +1,554 @@
+  113  kill -SIGKILL 4492
+  114  kill -SIGKILL 4491
+  115  kill -SIGKILL 4487
+  116  kill -SIGKILL 6132
+  117  python3 main.py
+  118  kill -SIGKILL 6132
+  119  python3 main.py
+  120  ps -A|grep firefox
+  121  kill -SIGKILL firefox
+  122  kill -SIGKILL 5426
+  123  kill -SIGKILL firefox
+  124  ps -A|grep firefox
+  125  kill -SIGKILL 1871
+  126  python3
+  127  python3 main.py
+  128  kill -SIGKILL 1871
+  129  python3 main.py
+  130  kill -SIGKILL 1871
+  131  python3 main.py
+  132  ps -A|grep firefox
+  133  kill -SIGKILL 2351
+  134  ps -A|grep python
+  135  kill -SIGKILL 28228
+  136  python3
+  137  sudo pip3 install python-telegram-bot
+  138  touch main.py
+  139  python3 main.py
+  140  kill -SIGKILL 28228
+  141  python3 main.py
+  142  touch main.py
+  143  ssh -C username@hostname.com pg_dump --data-only --inserts YOUR_DB_NAME > dump.sql
+  144  ssh -C fpgrbnv@fpgrbnv pg_dump --data-only --inserts YOUR_DB_NAME > dump.sql
+  145  ssh -C fpgrbnv@fpgrbnv pg_dump --data-only --inserts SOME > dump.sql
+  146  ssh -C username@hostname.com pg_dump --data-only --inserts SOME_DATA_BASE > dump.sql
+  147  ssh -C fpgrbnv@fpgrbnv pg_dump --data-only --inserts SOME_DATA_BASE > dump.sql
+  148  sqliete3
+  149  sqlite3
+  150  python3
+  151  pip3 version sqlite3
+  152  pip3 -version sqlite3
+  153  pip3 show sqlite3
+  154  sudo pip3 show sqlite3
+  155  ssh -C username@hostname.com pg_dump --data-only --inserts YOUR_DB_NAME > dump.sql
+  156  python3
+  157  sudo apt-get install sqlite
+  158  sqlites
+  159  sqlite data.db
+  160  sqlite3 data.db
+  161  sqlite3 data21.db
+  162  sudo apt sqlite -version
+  163  apt show sqlite
+  164  apt show sqlite3
+  227  python3
+  228  sudo apt update
+  229  sudo apt ugrate
+  230  sudo apt upgrate
+  231  sudo apt upgrade
+  232  shutdown
+  233  shutdown -c
+  234  turn off
+  235  power off
+  236  python3
+  237  pyton3
+  238  python3
+  239  sudo apt update
+  240  sudo apt upgrade
+  241  sudo apt upgrade telegram-desktop
+  242  sudo apt install gpdF812-m
+  243  sudo apt install riseup-vpn
+  244  sudo snap install --classic riseup-vpn
+  245  sudo snap install vlc
+  246  touch main.py
+  247  sudo pip3 install segyio
+  248  cd ..
+  249  ls
+  250  python3 main.py
+  251  python3
+  252  sudo apt-get upgrade
+  253  sudo apt-get update
+  254  sudo apt-get upgrade
+  255  sudo apt update
+  256  sudo apt upgrade
+  257  sudo apt-get upgrade
+  258  apt list --upgradable
+  259  sudo apt upgrade
+  260  sudo apt autoremove
+  261  reboot
+  262  python3
+  263  touch main.py
+  264  ls -a
+  265  python3
+  266  sudo pip3 install pip install segpy
+  267  sudo pip3 install segpy
+  268  python3
+  269  sudo pip3 install pip install segpy
+  270  cd ..
+  271  ls
+  272  python3
+  273  python3 main.py
+  274  python3
+  275  python3 main.py
+  276  python main.py
+  277  sudo pip install numpy
+  278  sudo pip2 install numpy
+  279  python3 main.py
+  280  sudo apt-get install redshift-gtk
+  282  myip
+  283  ip
+  284  ps -a
+  285  cd DATA/Python/net/_4
+  291  pip3 - version segyio
+  292  pip3 version segyio
+  293  pip3 --version segyio
+  294  pip3 show segio
+  295  pip3 show segyio
+  296  python3 main.py
+  297  touch main.py
+  298  python3
+  299  python3 main.py
+  300  sudo pip3 instALL mayavi
+  301  sudo pip3 install mayavi
+  302  python3
+  303  sudo pip3 install PyQt
+  304  sudo apt-get install python3-pyqt5
+  305  sudo apt-get install python3-pyqt5.qtsvg
+  306  python3
+  307  python3 
+  310  python3
+  311  python3 main.py
+  312  git init
+  313  git add main.py
+  314  git commit -m"Seismic data interpretation"
+  315  git add main.py
+  316  git commit -m"Seismic data interpretation"
+  317  git push https://gitlab.com/Paul_Gorbunov/seismic-data-interpretation
+  318  git push --set-upstream https://gitlab.com/Paul_Gorbunov/seismic-data-interpretation master
+  319  pyton3
+  320  python3
+  321  git init
+  322  ls
+  323  git add rand_val.py
+  324  git commit -m"Working with probability"
+  325  git push https://github.com/PaulGorbunov/Probability
+  326  git push --set-upstream https://github.com/PaulGorbunov/Probability master
+  327  git init 
+  328  git add main.py fourier_series.py
+  329  git add gamma.py
+  330  git commit -m"Sound processing"
+  331  git push https://github.com/PaulGorbunov/Sound-processing
+  332  git push --set-upstream https://github.com/PaulGorbunov/Sound-processing master
+  333  git init
+  334  ls
+  335  git add main.py
+  336  git commit -m"Solving numerically DE's"
+  337  git push https://github.com/PaulGorbunov/Differential-equaions
+  338  git push --set-upstream https://github.com/PaulGorbunov/Differential-equaions master
+  339  git init
+  340  ls
+  341  git add fourie_transform.py  gauss-seidel.py
+  342  git commit -m"linear algebra"
+  343  git push https://github.com/PaulGorbunov/Linear-algebra
+  344  git push --set-upstream https://github.com/PaulGorbunov/Linear-algebra master
+  345  git init
+  346  git add main.py
+  347  git commit -m"Support Vector Classification"
+  348  git push https://github.com/PaulGorbunov/Support-Vector-Classification
+  349  git push --set-upstream https://github.com/PaulGorbunov/Support-Vector-Classification master
+  350  git init
+  351  git add main.py
+  352  git commit -m"Single-Layer Neural Network"
+  353  git push https://github.com/PaulGorbunov/Single-Layer-Classification-Neural-Network
+  354  git push --set-upstream https://github.com/PaulGorbunov/Single-Layer-Classification-Neural-Network master
+  355  git init
+  356  ls
+  357  git add forv_back_conv.py
+  358  git commit -m "Convolution layer in progress"
+  359  git push https://github.com/PaulGorbunov/CNN
+  360  git push --set-upstream https://github.com/PaulGorbunov/CNN master
+  361  git init
+  362  git add hlow.py
+  363  git commit -m"Neural network for classification"
+  364  https://github.com/PaulGorbunov/Neural-Network-
+  365  git push https://github.com/PaulGorbunov/Neural-Network-
+  366  git push --set-upstream https://github.com/PaulGorbunov/Neural-Network- master
+  367  git inint
+  368  git inin
+  369  git init
+  370  ls
+  371  git add main.py
+  372  git commit -m"information gain:
+  373  "
+  374  git push https://github.com/PaulGorbunov/Informaition-gain
+  375  git push --set-upstream https://github.com/PaulGorbunov/Informaition-gain master
+  376  git init
+  377  git add word2vec.py
+  378  git commit -m"word2vec"
+  379  git push https://github.com/PaulGorbunov/NLP
+  380  git push --set-upstream https://github.com/PaulGorbunov/NLP master
+  381  git init
+  382  git add .
+  383  git commit -m"personal voice assistant"
+  384  git push https://github.com/PaulGorbunov/Voice-assistant
+  385  git push --set-upstream https://github.com/PaulGorbunov/Voice-assistant master
+  386  git init
+  387  git add main.py _main.py
+  388  git commit -m"web app for text comparison"
+  389  git push https://github.com/PaulGorbunov/Web-NLP-app
+  390  git push --set-upstream https://github.com/PaulGorbunov/Web-NLP-app master
+  391  gir push Analysis of a cube of seismic data
+  392  git push https://github.com/PaulGorbunov/Seismic-data-analysis
+  393  git add DATA
+  394  python3
+  395  touch pars1.py
+  396  python3
+  397  sudo pip3 install selenium
+  398  phantomjs
+  399  sudo apt install phantomjs
+  400  touch prop.txt
+  401  sudo pip3 install googlesearch
+  402  sudo pip3 install -U googlesearch
+  403  pip3 show googlesearch
+  404  pip3 show google
+  405  sudo pip3 install google
+  406  touch main.py
+  407  python3
+  408  la -a
+  409  cd ..
+  410  cd .
+  411  cd
+  412  cd .
+  413  cd ..
+  414  cd .
+  415  la -a -s
+  416  ls -a -s
+  417  ls -S
+  418  ls -s
+  419  ps -a |grep "firefox
+  420  "
+  421  ps -a |grep "firefox"
+  422  kill SIGKILL 6442
+  423  ps -a |grep "firefox"
+  424  kill SIGKILL 175842
+  425  kill SIGKILL 17584
+  426  export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step
+  427  touch main.py
+  428  sudo pip3 install selenium
+  429  python3 main.py
+  430  python3
+  431  ps -a |grep "firefox"
+  432  kill SIGKILL 27703
+  433  python3 main.py
+  434  python3
+  435  1
+  436  python3 main.py
+  437  ls
+  438  python3 main.py
+  439  1
+  440  python3 main.py
+  441  sudo pip3 install xlsxwriter
+  442  ls
+  443  mkdir data
+  444  python3
+  445  sudo pip3 install openpyxl 
+  446  python3
+  447  python3 main.py
+  448  python3
+  449  python3 main.py
+  450  python3
+  451  python3 main.py
+  452  python3
+  453  ptyhon
+  454  python3
+  455  ps -a |grep "firefox"
+  456  kill SIGKILL 9194
+  457  touch readme.txt
+  458  python3
+  459  python3 main.py
+  460  ls
+  461  python3 main.py
+  462  cd ..
+  463  python3 main.py
+  464  python3
+  465  cd ..
+  466  python3
+  467  python3 main.py
+  468  ps -a 
+  469  ps -a | grep firefox
+  470  kill SIGKILL 2457
+  471  ps -a | grep firefox
+  472  kill SIGKILL 20075
+  473  python3
+  474  ps -a | grep firefox
+  475  kill SIGKILL 4307
+  476  python3
+  477  cd Python/DATA/Python/tests
+  478  cd Python/DATA/Python/
+  479  cd DATA/Python/tests
+  480  cd DATA/Python
+  481  ls
+  482  cd Proj/tests
+  483  ls
+  484  cd selenium
+  485  ls
+  486  python3 main.py
+  487  sudo apt-get upgrade
+  488  python3 main.py
+  489  python3
+  683  sudo apt -y install libgconf2-4
+  684  sudo apt-add-repository ppa:audio-recorder/ppa
+  685  sudo apt-get update
+  686  sudo snap install audio-recorder --beta
+  687  sudo snap delete audio-recorder --beta
+  688  snap help
+  689  sudo snap remove audio-recorder --beta
+  690  sudo snap remove audio-recorder 
+  691  sudo apt-get install audio-recorder
+  692  git init
+  693  git add pilot.docx
+  694  git commit -m"1s"
+  695  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show
+  696  git push --set-upstream https://gitlab.com/Paul_Gorbunov/the_shapes_show master
+  697  git add pilot.docx
+  698  git commit -m"2s"
+  699  git push --set-upstream https://gitlab.com/Paul_Gorbunov/the_shapes_show master
+  700  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show
+  701  ffmpeg -r 12 -i some.%04d.png my_animation.mp4
+  702  cd ..
+  703  cd
+  704  cd /Documents/scripts/the_shapes_show/design/
+  705  cd Documents/scripts/the_shapes_show/design/
+  706  ffmpeg -r 12 -i test/test.%04d.png test.mp4
+  707  ls
+  708  ffmpeg -r 12 -i test/test.%04d.png test.mp4
+  709  ffmpeg -r 12 -i test1/test1.%04d.png test1.mp4
+  739  ps -a grep "firefox"
+  740  ps -a| grep "firefox"
+  741  kill SIGKILL 2799
+  742  touch main.list
+  743  sudo apt-get install imagemagick
+  744  convert
+  745  convert -delay 20 -loop 0 gif/*.png my.gif
+  746  convert -delay 0 -loop 0 gif/*.png my.gif
+  747  git add pilot.docx
+  748  git commit -m"3%s"
+  749  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show
+  750  ffmpeg -i ballgame_talk.mp3 ball_talk.wav 
+  751  git init
+  752  git add design music
+  753  touch .gitignore
+  754  nano .gitignore
+  755  cat .gitignore
+  756  nano .gitignore
+  757  cat .gitignore
+  758  nano .gitignore
+  759  git delete
+  760  git init
+  761  git add design music
+  762  git commit -m"let it show"
+  763  git init
+  764  git add design music
+  765  git commit -m"let it show"
+  766  git init
+  767  git add design music
+  768  git commit -m"let it show"
+  769  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data
+  770  Paul_Gorbunov
+  771  git push --set-upstream https://gitlab.com/Paul_Gorbunov/the_shapes_show_data master
+  772  git add .
+  773  git commit -m"let it show"
+  774  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  775  full.dat
+  776  touch full.dat
+  777  ffmpeg -r 24 -i _list_/ball_game_bit.%04d.png ball_game_bit.mp4
+  778  ffmpeg -r 22 -i _list_/ball_game_bit.%04d.png ball_game_bit_22.mp4
+  779  ffmpeg -r 24 -i _list_/ball_game_bit.%04d.png ball_game_bit_24.mp4
+  780  ffmpeg -r 23 -i _list_/ball_game_bit.%04d.png ball_game_bit_23.mp4
+  781  sudo pip3 install opentimelineio
+  782  ffmpeg -r 24 -i _list_/ball_game_bit.%04d.png ball_game_bit_24.mp4
+  783  git add .
+  784  git commit -m"ball_game_bit added"
+  785  git add .
+  786  git commit -m"ball_game_bit added"
+  787  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  788  ffmpeg -r 24 -i _list_in_out/intro_ball_game_bit.%04d.png inout_ball_game_bit_24.mp4
+  789  git add .
+  790  git commit -m"ball game gag ended"
+  791  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  792  ffmpeg -r 24 -i _list_in_out/_list_i/intro_ball_game_bit.%04d.png in_ball_game_bit_24.mp4
+  793  ffmpeg -r 24 -i _list_i/intro_ball_game_bit.%04d.png in_ball_game_bit_24.mp4
+  794  ffmpeg -r 24 -i _list_o/intro_ball_game_bit.%04d.png out_ball_game_bit_24.mp4
+  795  ffmpeg -r 24 -i _list_i/intro_ball_game_bit.%04d.png in_ball_game_bit_24.mp4
+  796  ffmpeg -r 24 -i _list_i/intro_ball_game_bit.%04d.png out_ball_game_bit_24.mp4
+  797  ffmpeg -r 24 -i _list_o/intro_ball_game_bit.%04d.png out_ball_game_bit_24.mp4
+  798  ls
+  799  ffmpeg -r 24 -i _list_o/intro_ball_game_bit.%04d.png out_ball_game_bit_24.mp4
+  800  ffmpeg -r 24 -i _list_o/intro_ball_game_bit.0%03d.png out_ball_game_bit_24.mp4
+  801  ffmpeg -r 24 -i _list_i/intro_ball_game_bit.%04d.png out_ball_game_bit_24.mp4
+  802  git add .
+  803  git commit -m"amphora begin"
+  804  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  805  ./Broforce.exe
+  806  sudo ./Broforce.exe
+  807  ls
+  808  su
+  809  su root
+  810  sudo ./Broforce.exe
+  811  sudo apt-get install wine
+  812  sudo apt install mono-runtime
+  813  mono Broforce.exe
+  814  apt-get install bsdtar fakeroot imagemagick
+  815  sudo apt-get install bsdtar fakeroot imagemagick
+  816  ls
+  817  gog_broforce_2.3.0.4.sh
+  818  libplayit2.sh
+  819  git add .
+  820  git commit -m"rice_crisis"
+  821  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  822  git add .
+  823  git commit -m"rice crisis audio "
+  824  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  825  cat .gitignore
+  826  nano .gitignore
+  827  cat .gitignore
+  828  git add .
+  829  git commit -m"forv pass "
+  830  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show/
+  831  ls
+  832  cp  autotalent.so /usr/lib/ladspa
+  833  sudo cp  autotalent.so /usr/lib/ladspa
+  834  cd /usr/lib/ladspa
+  835  cd /usr/lib
+  836  ls
+  837  cd ladspa
+  838  sudo apt install ladspa-autotalent-plugins
+  839  sudo cp  autotalent.so /usr/lib/ladspa
+  840  cd /usr/lib
+  841  cd ladspa -v
+  842  sudo ladspa -v
+  843  sudo apt-get install -y autotalent
+  844  sudo /.Files
+  845  ps -a | grep "audacity"
+  846  kill SIGKILL 21617
+  847  python3
+  848  git add .
+  849  git commit -m"script"
+  850  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  851  git add .
+  852  git commit -m"script"
+  853  git add .
+  854  git commit -m"script"
+  855  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  856  ./Settings
+  857  gnome-control-center
+  858  unity-control-center
+  859  gnome-control-center
+  860  python3
+  861  git add .
+  862  git commit -m"rice_crisis_location"
+  863  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  864  git add .
+  865  git commit -m"rice_crisis_location"
+  866  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  867  git add .
+  868  git commit -m"rice_crisis_location_++"
+  869  git add .
+  870  git commit -m"rice_crisis_location_++"
+  871  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  872  git add .
+  873  git commit -m"rice_crisis_location_+++"
+  874  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  875  git add .
+  876  git commit -m"rice_crisis_location_++++"
+  877  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  878  git add .
+  879  git commit -m"rect+trian_duo"
+  880  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  881  git add .
+  882  git commit -m"rect+trian_duo_+"
+  883  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  884  ps -a | grep "*tor*"
+  885  ps -a | grep "tor"
+  886  kill SIGKILL 23226
+  887  sudo apt install -y torbrowser-launcher
+  888  torbrowser-launcher
+  889  touch songs_lyr.docx
+  890  ps -a | grep "firefox"
+  893  kill SIGKILL 2332
+  956  ps -a|grep "fire"
+  957  kill SIGKILL 2320
+  958  ps -a|grep "fire"
+  959  kill SIGKILL 2825
+  960  dpkg --status bluez | grep '^Version:'
+  961  sudo add-apt-repository ppa:bluetooth/bluez
+  962  sudo apt-get update
+  963  sudo apt upgrade
+  964  hcitool scan
+  965  sudo apt install git build-essential dkms
+  966  git clone https://github.com/jeremyb31/newbtfix-4.15.git
+  967  sudo dkms add ./newbtfix-4.15
+  968  sudo dkms install btusb/4.0
+  969  reboot
+  970  git add .
+  971  git commit -m"bank+"
+  972  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  973  git add .
+  974  ./
+  975  /.
+  976  ./ hello
+  977  /. hello
+  978  git commit -m"./pilot"
+  979  git push https://gitlab.com/Paul_Gorbunov/the_shapes_show_data/
+  980  touch _first_.docx
+  981  reboot
+  982  sudo reboot
+ 1010  cd /usr/share/applications
+ 1011  chmod +x ./*.AppImage
+ 1012  ls
+ 1013  cp  Storyboarder-2.0.1-linux-x86_64.AppImage
+ 1014  cp  Storyboarder-2.0.1-linux-x86_64.AppImage /usr/share/applications
+ 1015  sudo cp  Storyboarder-2.0.1-linux-x86_64.AppImage /usr/share/applications
+ 1016  ~/.local/share/applications
+ 1017  cd ~/.local/share/applications
+ 1018  ls
+ 1019  touch storyboarder.desktop
+ 1020  nano storyboarder.desktop
+ 1021  cd ~/.local/share/applications
+ 1022  ls
+ 1023  rm storyboarder.desktop
+ 1024  ls
+ 1025  sudo rm Storyboarder-2.0.1-linux-x86_64.AppImage
+ 1089  git init
+ 1090  touch .gitignore
+ 1091  kate .gitignore
+ 1092  pwd
+ 1093  ls /usr/bin
+ 1094  ls /usr/bin | grep "gcc"
+ 1095  ls /usr/bin | grep "gcc" | sort
+ 1096  ls /usr/bin | grep "gcc" | sort -t: -k2,2rn
+ 1097  ls /usr/bin | grep "gcc" | sort -r
+ 1098  touch ex_1.txt
+ 1099  rm ex_1.txt
+ 1100  ls
+ 1101  cd bs-19.05_os_pavel_gorbunov
+ 1102  cd week1
+ 1103  ls
+ 1104  touch ex_1.txt
+ 1105  mv ex_1.txt ex1.txt
+ 1106  ls
+ 1107  history
+ 1108  touch ex.2
+ 1109  rm ex.2
+ 1110  rm ex2.txt
+ 1111  touch ex2.txt
+ 1112  history > ex2.txt
