@@ -8,7 +8,7 @@
 int prod_sp,cons_sp;                                   // sleep/awake for producer and consumer
 int buffer[L];                                         // shared buffer
 int TIME;                                              // shared counter
-int P =1000000000;                                     // to print once in a while.
+int P =1000000;                                        // to print once in a while.
 long long int print = 0;
 
 void *thread_f(void *varg){
@@ -58,6 +58,6 @@ int main(){                                            //creating two threads
 }
 
 /*
- * After some number of producer printed something, he stops,
+ * After a few number of producer printed something, he stops,
  * which means both threads've fallen asleep.
 */
