@@ -4,12 +4,12 @@
 #include <unistd.h>
 
 #define L 10
-#define P 100
-int prod_sp,cons_sp;
-int buffer[L];
 
-int TIME;
-long long int print;
+int prod_sp,cons_sp;                                   // sleep/awake for producer and consumer
+int buffer[L];                                         // shared buffer
+int TIME;                                              // shared counter
+int P =1000000000;                                     // to print once in a while.
+long long int print = 0;
 
 void *thread_f(void *varg){
     if (!*((int*)varg)){                                // Producer
@@ -58,9 +58,6 @@ int main(){                                            //creating two threads
 }
 
 /*
- * 
- * buffer originally is zeros-full, 
- * if producer increases it , consumer may decrease it,
- * 
- * 
+ * After some number of producer printed something, he stops,
+ * which means both threads've fallen asleep.
 */
