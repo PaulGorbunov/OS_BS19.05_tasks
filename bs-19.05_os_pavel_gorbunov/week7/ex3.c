@@ -32,17 +32,10 @@ int main(){
 
 	//If the new array is a larger size, set all new members to 0. Reason: dont want to use uninitialized variables.
 	if(n2 > n1) {
-        for (int i = 0; i < n1; i++) {
-            a1[i] = 100;
-        }
         for (int i = n1; i < n2; i++) {
-            a1[i] = 0;                                       //more Filling
+                a1[i] = 0;                                       //more Filling
         }
-    } else {
-        for (int i = 0; i < n2; i++) {
-            a1[i] = 100;
-        }
-    }
+    } 
 	
 
 	for(i=0; i<n2;i++){

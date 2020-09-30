@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void* __realloc__(void *p, int old_size,int new_size) {
+void* __realloc__(int *p, int old_size,int new_size) {
     if (p == NULL) {                                          // If ptr is NULL, the call is equivalent to malloc(size)
         p = malloc(new_size);
         return p;
@@ -13,9 +13,13 @@ void* __realloc__(void *p, int old_size,int new_size) {
         return p;                                           // If old_size >= new_size no need in reallocating memory
                                                             // just don't look at the part of the memory you don't want to use anymore
     }else {
-        void *lap = malloc(new_size);                      // malloc new_size
+        int *lap = malloc(new_size);                      // malloc new_size
         if(lap){
-            memcpy(lap, p, old_size);                      // copying the one-room list to the multi-room one
+            for (int i=0;i<new_size;i++){
+                lap[i] = p[i];                             // copying the one-room list to the multi-room one
+            } 
+                                                           // not using memcpy, as memory areas may overlap
+                                                           // which will lead to the wrong copying
             free(p); 
         }
         return lap;
@@ -54,17 +58,10 @@ int main(){
 
 	//If the new array is a larger size, set all new members to 0. Reason: dont want to use uninitialized variables.
 	if(n2 > n1) {
-        for (int i = 0; i < n1; i++) {
-            a1[i] = 100;
-        }
         for (int i = n1; i < n2; i++) {
             a1[i] = 0;                                       //more Filling
         }
-    } else {
-        for (int i = 0; i < n2; i++) {
-            a1[i] = 100;
-        }
-    }
+    } 
 	
 
 	for(i=0; i<n2;i++){
