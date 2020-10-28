@@ -13,8 +13,8 @@ int main(){
     
     struct stat statbuf;
     
-    fstat(f1,&statbuf);
-    ftruncate(f2,statbuf.st_size);
+    fstat(f_orig,&statbuf);
+    ftruncate(f_cop,statbuf.st_size);
     
     char *orig = mmap(NULL,statbuf.st_size,PROT_READ|PROT_WRITE,MAP_SHARED,f_orig,0);
     char *extr = mmap(NULL,statbuf.st_size,PROT_READ|PROT_WRITE,MAP_SHARED,f_cop,0);
